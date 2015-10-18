@@ -13,8 +13,6 @@ The latest version of Pint is {{ site.pint_version }}.
 
 #### Runtime requirements
 
-Some of the tools may require [python](http://python.org).
-
 - [clingo](http://sourceforge.net/projects/potassco/files/clingo/) is required by `pint-reach` and `ph2thomas`.
 
 
