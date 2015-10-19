@@ -14,6 +14,9 @@ The latest version of Pint is {{ site.pint_version }}.
 #### Runtime requirements
 
 - [clingo](http://sourceforge.net/projects/potassco/files/clingo/) is required by `pint-reach` and `ph2thomas`.
+- [ITS](http://ddd.lip6.fr/itstools.php) is required by `pint-its`.
+- [mole](http://www.lsv.ens-cachan.fr/~schwoon/tools/mole) is required by
+  `pint-mole`.
 
 
 
@@ -21,11 +24,11 @@ The latest version of Pint is {{ site.pint_version }}.
 
 ##### Compilation requirements
 
-- [OCaml](http://caml.inria.fr) >= 3.12
+- [OCaml](http://caml.inria.fr) >= 4.02
 - [CamlIDL](http://caml.inria.fr/pub/old_caml_site/camlidl/)
 - [Facile](http://www.recherche.enac.fr/opti/facile/distrib)
 - [Python](http://python.org)
-- [libRmath](http://www.r-project.org) from R - debian/ubuntu: `r-mathlib`
+- (optional) [libRmath](http://www.r-project.org) from R - debian/ubuntu: `r-mathlib`
 
 
 ##### Notes on libRmath requirement
