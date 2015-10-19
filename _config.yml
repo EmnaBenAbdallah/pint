@@ -1,5 +1,5 @@
 name: Pint - Static analyzer for dynamics of Automata Networks
 baseurl: /pint
 markdown: rdiscount
-pint_version: 2015-02-11
+pint_version: 2015-10-19
 exclude: [src]
