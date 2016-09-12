@@ -340,7 +340,8 @@ Full-Width Styles
 }
 
 .zip_download_link,
-.deb_download_link {
+.deb_download_link,
+.docker_download_link {
   display: block;
   float: right;
   width: 90px;
@@ -372,6 +373,12 @@ Full-Width Styles
 }
 .deb_download_link:hover {
   background: url(../images/sprite_download.png) no-repeat -90px 0px;
+}
+.docker_download_link {
+  background: url(../images/sprite_download.png) no-repeat -270px -70px;
+}
+.docker_download_link:hover {
+  background: url(../images/sprite_download.png) no-repeat -270px 0px;
 }
 span.pint_version {
 	display: inline-block;
